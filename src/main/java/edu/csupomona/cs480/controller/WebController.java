@@ -129,6 +129,12 @@ public class WebController {
 	ModelAndView redirectDave() {
 		return new ModelAndView("redirect:http://www.dave-cs.com");
 	}
+	
+	// Joe: video of me 
+	@RequestMapping(value="/cs480/morningsamirite", method = RequestMethod.GET)
+	ModelAndView amirite() {
+		return new ModelAndView("redirect:http://www.youtube.com/watch?v=dfnDv3Yzid8");
+	}
 
 	/*********** Web UI Test Utility **********/
 	/**
@@ -147,5 +153,6 @@ public class WebController {
 		Random r = new Random();
 		return "Random: " + r.nextInt(1000000);
 	}
+	
 	
 }
