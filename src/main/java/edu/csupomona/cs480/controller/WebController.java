@@ -135,6 +135,12 @@ public class WebController {
 	ModelAndView amirite() {
 		return new ModelAndView("redirect:http://www.youtube.com/watch?v=dfnDv3Yzid8");
 	}
+	
+	// Daniel: Hype music
+	@RequestMapping(value="/cs480/daniel", method = RequestMethod.GET)
+	ModelAndView amirite() {
+		return new ModelAndView("redirect:https://www.youtube.com/watch?v=ZchkP43avXg&t=2072s");
+	}
 
 	/*********** Web UI Test Utility **********/
 	/**
