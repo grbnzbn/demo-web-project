@@ -50,7 +50,7 @@ public class WebController {
 		// You can replace this with other string,
 		// and run the application locally to check your changes
 		// with the URL: http://localhost:8080/
-		return "OK";
+		return "And that's the wayyyyyy the news goes!";
 	}
 
 	/**
