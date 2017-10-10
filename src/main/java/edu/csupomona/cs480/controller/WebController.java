@@ -119,6 +119,15 @@ public class WebController {
 	List<User> listAllUsers() {
 		return userManager.listAllUsers();
 	}
+	
+	/**
+	 * Dave Luk: Method to redirect to my website
+	 */
+	 
+	@RequestMapping(value = "/cs480/dave", method = RequestMethod.GET)
+	ModelAndView redirectDave() {
+		return new ModelAndView("redirect:http://www.dave-cs.com");
+	}
 
 	/*********** Web UI Test Utility **********/
 	/**
